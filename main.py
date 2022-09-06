@@ -21,6 +21,7 @@ login_manager = LoginManager()
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 ckeditor = CKEditor(app)
+ckeditor = CKEditor(app)
 Bootstrap(app)
 
 ##CONNECT TO DB
